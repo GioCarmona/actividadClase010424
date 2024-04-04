@@ -9,10 +9,16 @@ A continuación desarrollaremos el paso a paso para conectar mi repositorio loca
 2. Crear repositorio local desde VisualCode
     * ctrl + ñ
     * Se escriben los comandos para inicializar nuestro repositorio local y conectarlo con el remoto
-3. Comandos:
+3. Comandos (Deben ir en orden):
     *git init -> Inicializar mi  repositorio local 
     *git add -> Se usa para agregar cambios al entorno de preparación backstage
-    *git status - > Estado de archivos
+    *git add . -> Carga todos los cambios pendientes en el git status
+    *git status -> Muestra los cambios pendientes por actualizar
+    *git comit -> Permite poner mensaje y significa que los archivos estan listos para enviar al repositorio remoto
+    *** Solo se usan estos comandos la primera vez***
+    *git branch -M main -> Establece la rama principal (Main)
+    *git remote add origin https://github.com/GioCarmona/actividadClase010424.git -> Ruta para conectar con el repositorio remoto
+    *git push -u origin main -> Envía los cambios a la rama Main de GitHub.
 
 
 
