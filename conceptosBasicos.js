@@ -24,4 +24,28 @@ let esFalso = false;
 // Arreglos - arrays - permiten almacenar varios datos al mismo tiempo en una misma variable
 let arregloNombres = ["Luisa", "Paula", "Lucila", "Gio"];
 let arregloNumeros = [1, 3, 5, 7];
-// 
+// Objetos - "Representación de elementos de la vida real, pero en nuestro código"
+// - Atributos
+// - Metodos: Acciones que pueden hacer los objetos. 
+// () Para ejecutar acciones - invocar funciones
+// {} Para declarar objetos 
+// [] Para declarar arreglos
+const celular = {
+    color: "texto",
+    ancho: 350,
+    alto: 500,
+    modelo: "Galaxy A70",
+    // Un mensaje que indica o representa una acción.
+    enviarMensajes: function(){
+        //Corchetes al lado de paréntesis establecen la acción a realizar
+        console.log("Mensaje enviado");
+    },
+    // El método -> las acciones -> Directamente una operación
+    sumar: function(){
+        console.log(5+4);
+    }
+
+    buscarObjeto: function(){
+        console.log("Le muestra lo que esta buscando");
+    }
+}
