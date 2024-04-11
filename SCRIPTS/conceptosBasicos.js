@@ -43,7 +43,7 @@ const celular = {
     // El método -> las acciones -> Directamente una operación
     sumar: function(){
         console.log(5+4);
-    }
+    },
 
     buscarObjeto: function(){
         console.log("Le muestra lo que esta buscando");
